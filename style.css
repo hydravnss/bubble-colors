@@ -1,0 +1,18 @@
+/* Bubble Colors - panneau de réglages (les règles des bulles sont injectées par index.js) */
+#bubble_colors_settings .bc-block { margin: 6px 0; }
+#bubble_colors_settings .bc-hint { opacity: 0.7; font-size: 0.85em; margin: 2px 0 4px 0; }
+#bubble_colors_settings .bc-row { display: flex; align-items: center; gap: 8px; margin: 4px 0; flex-wrap: wrap; }
+#bubble_colors_settings .bc-row > label:first-child { min-width: 110px; }
+#bubble_colors_settings .bc-row input[type="range"] { flex: 1 1 120px; }
+#bubble_colors_settings .bc-row input[type="color"],
+#bubble_colors_settings .bc-char input[type="color"] { width: 44px; height: 30px; padding: 0; border: 1px solid var(--SmartThemeBorderColor, #888); background: none; cursor: pointer; }
+#bubble_colors_settings .bc-val { min-width: 42px; text-align: right; }
+#bubble_colors_settings .bc-char { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin: 4px 0; }
+#bubble_colors_settings .bc-char-name { flex: 1 1 120px; font-weight: bold; }
+#bubble_colors_settings .bc-presets { display: flex; flex-wrap: wrap; gap: 6px; }
+#bubble_colors_settings hr { margin: 8px 0; }
+#bubble_colors_settings .bc-preview { display: flex; flex-direction: column; gap: 8px; padding: 10px; border-radius: 10px; background: rgba(0, 0, 0, 0.25); }
+#bubble_colors_settings .bc-bubble { max-width: 85%; padding: 8px 12px; line-height: 1.35; }
+#bubble_colors_settings .bc-bubble-user { align-self: flex-end; }
+#bubble_colors_settings .bc-bubble-bot { align-self: flex-start; }
+#bubble_colors_settings .bc-prev-name { font-size: 0.8em; font-weight: bold; opacity: 0.85; }
