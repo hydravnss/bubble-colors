@@ -1,4 +1,4 @@
-/* Bubble Colors - panneau de réglages (les règles des bulles sont injectées par index.js) */
+/* Bubble Colors 2.0 - panneau de réglages (les règles des bulles sont injectées par index.js) */
 #bubble_colors_settings .bc-block { margin: 6px 0; }
 #bubble_colors_settings .bc-hint { opacity: 0.7; font-size: 0.85em; margin: 2px 0 4px 0; }
 #bubble_colors_settings .bc-row { display: flex; align-items: center; gap: 8px; margin: 4px 0; flex-wrap: wrap; }
@@ -12,7 +12,14 @@
 #bubble_colors_settings .bc-presets { display: flex; flex-wrap: wrap; gap: 6px; }
 #bubble_colors_settings hr { margin: 8px 0; }
 #bubble_colors_settings .bc-preview { display: flex; flex-direction: column; gap: 8px; padding: 10px; border-radius: 10px; background: rgba(0, 0, 0, 0.25); }
-#bubble_colors_settings .bc-bubble { max-width: 85%; padding: 8px 12px; line-height: 1.35; }
+#bubble_colors_settings .bc-bubble { max-width: 85%; padding: 9px 14px; line-height: 1.35; width: fit-content; }
 #bubble_colors_settings .bc-bubble-user { align-self: flex-end; }
 #bubble_colors_settings .bc-bubble-bot { align-self: flex-start; }
 #bubble_colors_settings .bc-prev-name { font-size: 0.8em; font-weight: bold; opacity: 0.85; }
+/* Grille de thèmes dégradés façon Messenger */
+#bubble_colors_settings .bc-swatches { display: flex; flex-wrap: wrap; gap: 10px; padding: 6px 2px; }
+#bubble_colors_settings .bc-swatch { width: 40px; height: 40px; min-width: 40px; border-radius: 50%; border: 2px solid rgba(255, 255, 255, 0.25); padding: 0; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; color: #fff; font-size: 16px; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4); -webkit-tap-highlight-color: transparent; }
+#bubble_colors_settings .bc-swatch.bc-selected { outline: 3px solid var(--SmartThemeQuoteColor, #4da3ff); outline-offset: 2px; border-color: #fff; }
+#bubble_colors_settings .bc-swatch-custom i { text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7); }
+#bubble_colors_settings .bc-custom { margin: 4px 0 6px; padding: 6px 8px; border-radius: 8px; background: rgba(0, 0, 0, 0.15); }
+#bubble_colors_settings .bc-char select.text_pole { width: auto; max-width: 170px; }

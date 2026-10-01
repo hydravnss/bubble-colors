@@ -6,8 +6,8 @@
     "js": "index.js",
     "css": "style.css",
     "author": "hydravnss",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "homePage": "https://github.com/hydravnss/bubble-colors",
     "minimum_client_version": "1.12.0",
-    "description": "FR: Personnalise les couleurs des bulles de chat (utilisateur / bots / personnages de groupe), opacité, arrondi, couleurs de l'italique et du gras, avec priorité sur les thèmes CSS personnalisés. EN: Customize chat bubble colors (user / bots / per-character in groups), opacity, radius, italic/bold colors, overriding custom CSS themes."
+    "description": "FR: Personnalise les bulles de chat (utilisateur / bots / personnages de groupe) : couleurs unies ou dégradés façon thèmes Messenger (24 préréglages, dégradé continu sur l'écran, brillance, lueur), contraste automatique, avec priorité sur les thèmes CSS personnalisés. EN: Customize chat bubbles with solid colors or Messenger-style gradient themes (24 presets, screen-continuous gradient, gloss, glow, auto-contrast), overriding custom CSS themes."
 }
